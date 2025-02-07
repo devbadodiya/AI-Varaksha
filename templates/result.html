@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prediction Result</title>
+  <!-- Include Bootstrap or any other stylesheets as needed -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container text-center mt-5">
+    <h2>Plant Disease Detection Result</h2>
+    <h4 class="mt-4">Prediction: 
+      <!-- Apply the class dynamically based on the prediction -->
+      <span class="{{ 'text-danger' if prediction == 'Diseased' else 'text-success' }}">{{ prediction }}</span>
+    </h4>
+    <div class="mt-4">
+      <!-- Update this img tag to use the correct image path -->
+      <img src="{{ url_for('static', filename='uploads/' + image_path.split('/')[-1]) }}" alt="Uploaded Image" class="rounded mx-auto d-block" style="max-width: 300px;">
+    </div>
+    <div class="mt-3">
+      <a href="{{ url_for('index') }}" class="btn btn-primary">Back to Home</a>
+    </div>
+  </div>
+</body>
+
+</html>

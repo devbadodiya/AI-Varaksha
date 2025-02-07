@@ -1,0 +1,20 @@
+.about-two-grids{
+    color: rgb(129, 40, 189);
+    }
+    .about-oil-w3layouts {
+      padding: 3em 1em;
+      color: #000;
+      background: #efefef;
+      box-shadow: 0px 0px 10px #cecece;
+    }
+    
+    .about-icon span {
+      font-size: 40px;
+      color: #643e88;
+    }
+    
+    .about-fashion-two img,
+    .about-fashion-one img {
+      box-shadow: -9px 10px 3px #fd5c63;
+      box-shadow: -5px 2px 9px #afafaf;
+    }
