@@ -1,6 +1,5 @@
 # AI Varaksha
- <h1> Hello their,</h1>
- <p> This is an Group Project made by mr and my team mates, Here we have created an system where with the help of just image will able to identify image disease.
- helps the farmer to identify the problems with it.
+ <h1> Hello there,</h1>
+ <p> This is a Group Project made by me and my teammates, Here we have created a system where with the help of just an image we will identify the plant disease. Farmers can use this platform to identify if their plants are healthy or diseased.
  </p>
  
